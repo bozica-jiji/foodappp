@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.FoodApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Rich Brown Theme -->
+        <item name="colorPrimary">#8B5A2B</item> <!-- Deep Brown (Taskbar) -->
+        <item name="colorPrimaryVariant">#6F4320</item> <!-- Darker Brown -->
+        <item name="colorOnPrimary">@color/white</item> <!-- White text on app bar -->
+
+        <item name="colorSecondary">#A97142</item> <!-- Warm Brown for Buttons -->
+        <item name="colorSecondaryVariant">#8B5A2B</item> <!-- Slightly darker for accents -->
+        <item name="colorOnSecondary">@color/white</item> <!-- White text on buttons -->
+
+        <item name="android:windowBackground">@color/white</item> <!-- Background remains white -->
+    </style>
+</resources>
+
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/result_bg"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Dish Name -->
+        <TextView
+            android:id="@+id/dishName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dish Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:paddingBottom="8dp" />
+
+        <!-- Dish Image -->
+        <ImageView
+            android:id="@+id/dishImage"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/no_image"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Recipe Details -->
+        <TextView
+            android:id="@+id/recipeDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe details will be displayed here."
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:paddingBottom="8dp" />
+
+        <!-- Calorie Count -->
+        <TextView
+            android:id="@+id/calorieCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories: 0"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:paddingBottom="12dp" />
+
+        <!-- Restaurant Name -->
+        <TextView
+            android:id="@+id/restaurantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best Place to Eat: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:paddingBottom="6dp" />
+
+        <!-- Restaurant Image -->
+        <ImageView
+            android:id="@+id/restaurantImage"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:src="@drawable/no_image"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Order Now Button -->
+        <Button
+            android:id="@+id/orderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Now"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/green"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</ScrollView>
+
+

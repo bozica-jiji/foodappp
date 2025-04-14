@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Ingredients"
+            android:textSize="22sp" />
+
+        <!-- Rice -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/rice" />
+
+            <CheckBox
+                android:id="@+id/check_rice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rice" />
+        </LinearLayout>
+
+        <!-- Tomato -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tomato" />
+
+            <CheckBox
+                android:id="@+id/check_tomato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tomato" />
+        </LinearLayout>
+
+        <!-- Egg -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/egg" />
+
+            <CheckBox
+                android:id="@+id/check_egg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Egg" />
+        </LinearLayout>
+
+        <!-- Cheese -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cheese" />
+
+            <CheckBox
+                android:id="@+id/check_cheese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheese" />
+        </LinearLayout>
+
+        <!-- Garlic -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/garlic" />
+
+            <CheckBox
+                android:id="@+id/check_garlic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garlic" />
+        </LinearLayout>
+
+        <!-- Lettuce -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lettuce" />
+
+            <CheckBox
+                android:id="@+id/check_lettuce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lettuce" />
+        </LinearLayout>
+
+        <!-- Potato -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/potato" />
+
+            <CheckBox
+                android:id="@+id/check_potato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Potato" />
+        </LinearLayout>
+
+        <!-- Chicken -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/chicken" />
+
+            <CheckBox
+                android:id="@+id/check_chicken"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicken" />
+        </LinearLayout>
+
+        <!-- Butter -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/butter" />
+
+            <CheckBox
+                android:id="@+id/check_butter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Butter" />
+        </LinearLayout>
+
+        <!-- Carrot -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/carrot" />
+
+            <CheckBox
+                android:id="@+id/check_carrot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carrot" />
+        </LinearLayout>
+
+        <!-- Find Recipe Button -->
+        <Button
+            android:id="@+id/findRecipeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find Dish" />
+    </LinearLayout>
+</ScrollView>
+
