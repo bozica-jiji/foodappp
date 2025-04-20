@@ -2,6 +2,7 @@
 A quick & tasty journey from ingredients to your plate 🍽️💫
 
 1️⃣ Get Started
+
 Click the “Get Started” button to launch the app 🌿📲
 
 
@@ -10,6 +11,7 @@ Click the “Get Started” button to launch the app 🌿📲
 
 
 2️⃣ Choose Ingredients
+
 Select your ingredients by tapping on the vibrant visuals 🥕🍅🧄🍄
 
 
@@ -18,6 +20,7 @@ Select your ingredients by tapping on the vibrant visuals 🥕🍅🧄🍄
 
 
 3️⃣ View Recipe & Calories
+
 Read the full recipe 📖, and check the calorie count 🔥 for healthy eating 🧘‍♀️💪
 
 
@@ -27,6 +30,7 @@ Read the full recipe 📖, and check the calorie count 🔥 for healthy eating �
 
 
 4️⃣ Order Your Meal
+
 Click “Order Now” to get redirected to your favorite takeout site 🍕🍜🛍️
 
 
